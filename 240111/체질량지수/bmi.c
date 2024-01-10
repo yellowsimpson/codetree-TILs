@@ -6,7 +6,7 @@ int main() {
     scanf("%d %d", &키, &몸무게);
     int BMI = 몸무게*100*100/(키*키);
 
-    printf("%d", BMI);
+    printf("%d\n", BMI);
     if(BMI >= 25){
         printf("Obesity");
     }
