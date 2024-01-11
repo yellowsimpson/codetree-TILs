@@ -6,7 +6,7 @@ int main() {
     scanf("%d %c\n", &a, &a1);
     scanf("%d %c", &b, &b1);
 
-    if((a >= 19 || b >= 19) || (a1 == 'm' || b1 == 'm')){
+    if((a >= 19 || b >= 19) && (a1 == 'm' || b1 == 'm')){
         printf("1");
     }else
         printf("0");
