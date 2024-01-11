@@ -7,8 +7,8 @@ int main() {
     scanf("%d %c", &b, &b1);
 
     if((a >= 19 && a1 >= 'M') || (b >= 19 && b1 == 'M')){
-        printf("1\n");
+        printf("1");
     }else
-        printf("0\n");
+        printf("0");
     return 0;
 }
