@@ -7,7 +7,7 @@ int main() {
 
     if(n >= 95){
         printf("100000");
-    }else if(n >=95){
+    }else if(n >=90){
         printf("50000");
     }else
         printf("0");
