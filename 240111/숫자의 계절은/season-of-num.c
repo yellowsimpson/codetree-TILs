@@ -5,13 +5,13 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    if(n >= 3 || n <= 5){
-        printf("Spring");
-    }else if(n >=6 || n <= 8){
+    if(n >= 12 || n <= 2){
+        printf("Winter");
+    }else if(n <= 5){
         printf("Summer");
-    }else if (n >= 9 || n <= 11){
+    }else if (n <= 8){
         printf("Fall");
-    }else(n >= 12 || n <= 2){
+    }else{
         printf("Winter");
     }
 
