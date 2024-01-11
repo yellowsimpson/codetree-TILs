@@ -11,7 +11,7 @@ int main() {
         printf("Summer");
     }else if (n >= 9 || n <= 11){
         printf("Fall");
-    }else{
+    }else(n >= 12 || n <= 2){
         printf("Winter");
     }
 
