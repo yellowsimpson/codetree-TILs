@@ -2,12 +2,12 @@
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    int n;
-    scanf("%d", &n);
+    int m, f;
+    scanf("%d %d", &m, &f);
 
-    if(n >= 95){
+    if(m >= 90 && f >= 95){
         printf("100000");
-    }else if(n >=90){
+    }else if(m >= 90 && f >=90){
         printf("50000");
     }else
         printf("0");
