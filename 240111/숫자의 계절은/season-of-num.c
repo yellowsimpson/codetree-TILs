@@ -8,11 +8,11 @@ int main() {
     if(n >= 12 || n <= 2){
         printf("Winter");
     }else if(n <= 5){
-        printf("Summer");
+        printf("Spring");
     }else if (n <= 8){
-        printf("Fall");
+        printf("Summer");
     }else{
-        printf("Winter");
+        printf("Fall");
     }
 
     return 0;
