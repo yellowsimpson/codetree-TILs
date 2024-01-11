@@ -6,9 +6,7 @@ int main() {
     int Bm, Be;
     scanf("%d %d\n %d %d", &Am, &Ae, &Bm, &Be);
 
-    if(Am > Bm){
-        printf("A");
-    }else if(Am == Bm || Ae > Be){
+    if(Am > Bm || (Am == Bm && Ae > Be)){
         printf("A");
     }else
         printf("B");
