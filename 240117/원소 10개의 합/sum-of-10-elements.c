@@ -13,6 +13,6 @@ int main() {
         sum += arr[i];
     }
 
-    printf("%d", &)
+    printf("%d", sum);
     return 0;
 }
