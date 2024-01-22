@@ -1,2 +1,1 @@
-print('Hello');
-'''Hello World'''
+"""Hello World"""
