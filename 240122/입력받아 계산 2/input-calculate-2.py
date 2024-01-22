@@ -1,6 +1,2 @@
-inp = input()
-arr = inp.split()
-a = int(arr[0])
-b = int(arr[1])
-
+a, b = tuple(map(int, input().split()))
 print(a * b)
