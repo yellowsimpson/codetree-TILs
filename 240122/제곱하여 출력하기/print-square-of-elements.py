@@ -1,7 +1,9 @@
-arr = [1, 2, 3, 5]
+n = input()
+arr = list(map(int, input().split))
 
 new_arr = []
 for elem in arr:
-    new_arr.append(elem*2)
+    new_arr.append(elem*elem)
 
-print(new_arr)
+for elem in new_arr:
+    print(elem)
