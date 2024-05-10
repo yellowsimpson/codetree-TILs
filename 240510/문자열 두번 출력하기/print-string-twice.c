@@ -2,9 +2,9 @@
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    char str[15];
+    char str[100];
     scanf("%s", str);
-    printf("%s\n", str);
-    printf("%s", str);
+    printf("%s\n%s", str, str);
+
     return 0;
 }
