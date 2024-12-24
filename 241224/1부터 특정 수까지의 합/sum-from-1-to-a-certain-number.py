@@ -5,7 +5,7 @@ def sum_div_10(n):
     return total // 10
 
 def main():
-    # 사용자로부터 정수 입력
+    #정수 입력
     n = int(input())
     # 함수 호출 후 결과 출력
     print(sum_div_10(n))
