@@ -10,6 +10,6 @@ int main() {
         cout << "pass" << endl;
     }
     else
-        cout << 80 - n << "more score" << endl;
+        cout << 80 - n << " more score" << endl;
     return 0;
 }
