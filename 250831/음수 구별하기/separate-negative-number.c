@@ -22,4 +22,5 @@ int main(){
     if(a < 0){
         printf("%d\nminus", a);
     }
+    return 0;
 }
