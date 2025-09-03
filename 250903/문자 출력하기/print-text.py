@@ -1,5 +1,8 @@
-text = char(input())
+text = input()
 
 
-for(i = 0; i <= 8; i++):
-    print("%c", text)
+for _ in range(8):
+    print(text, end="")
+
+
+
