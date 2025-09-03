@@ -1,4 +1,3 @@
-int i:
 
-for i range(5, 18):
+for i in range(5, 18, 1):
     print(i, end=" ")
