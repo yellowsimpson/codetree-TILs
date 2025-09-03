@@ -6,10 +6,12 @@ int main() {
     int n;
     cin >> n;
 
-    for(int i = 0; i <= 4; i++){
+    cout << n;
+    for(int i = 0; i <= 3; i++){
         n += n;
-        cout << n << endl;
+        cout << n << " " ;
     }
+
     return 0;
 }
 
