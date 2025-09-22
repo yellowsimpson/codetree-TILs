@@ -6,33 +6,40 @@
 
 //     for(int i = 0; i < 100; i++){
 //         scanf("%d\n", &arr[i]);
+
+//         if(arr[i] < 25)
+//             printf("Hihger\n");
+//         else if(arr[i] > 25)
+//             printf("Lower\n");
+//         else
+//             printf("Good\n");
 //     }
 
-//     if(arr[i] < 25)
-//         printf("Hihger");
-//     else if(arr[i] > 25)
-//         printf("Lower");
-//     else
-//         printf("Good");
+
 
 //     return 0;
 // }
 
-
 #include <stdio.h>
 
 int main() {
-    int x;
-
-    // 입력이 끝날 때까지 반복
-    while (scanf("%d", &x) != EOF) {
-        if (x < 25)
-            printf("Higher\n");
-        else if (x > 25)
-            printf("Lower\n");
-        else
-            printf("Good\n");
+    while(1) {
+        // 변수 선언 및 입력
+        int n;
+        scanf("%d", &n);
+		
+		// n이 25보다 작으면 Higher을, 25보다 크면 Lower을, 25와 같으면 Good을 출력한 뒤 종료합니다.
+		if(n < 25)
+			printf("Higher\n");
+		
+		else if(n > 25)
+			printf("Lower\n");
+		
+		else {
+			printf("Good\n");
+			break;
+		}
     }
-
+	
     return 0;
 }
