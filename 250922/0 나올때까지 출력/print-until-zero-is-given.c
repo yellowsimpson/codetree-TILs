@@ -5,7 +5,7 @@ int main() {
 
     while(1){
     int num;
-    scanf("%d", &n);
+    scanf("%d", &num);
     
     if(num == 0)
         break;
