@@ -10,7 +10,7 @@ int main() {
         cin >> num;
         if(num % 3 == 0)
             cnt3++;
-        if(num5 % 5 == 0)
+        if(num % 5 == 0)
             cnt5++;
     }
 
