@@ -1,26 +1,30 @@
+//M1
 // #include <stdio.h>
 
 // int main() {
-//     // Please write your code here.
-//     int a, b;
-//     int cnt = 0;
+//     // 변수 선언
+//     int a, b, i;
+
+//     // 입력
 //     scanf("%d %d", &a, &b);
-
-//     while(1){
-//         for(int i = a; i <= b; i++){
-//             if(a % 2 == 0)
-//                 printf("%d\n", a + 3);
-//                 i = a + 3;
-//             else if(a % 2 != 0)
-//                 printf("%d\n", a * 2);
-//                 i = a * 2;
-//             else
-//                 continue;
-//         }
-
+    
+//     i = a;
+    
+//     // 출력
+//     while(i <= b) {
+//         printf("%d ", i);
+//         if(i % 2 == 1)
+//             i *= 2;
+//         else
+//             i += 3;
 //     }
+
 //     return 0;
 // }
+
+
+
+//M2
 #include <stdio.h>
 
 int main() {
