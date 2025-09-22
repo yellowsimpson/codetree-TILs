@@ -6,7 +6,7 @@ int main() {
     int num;
     int cnt3 == 0, cnt5 == 0;
 
-    for(int i = 0; i <= 10; i++){
+    for(int i = 1; i <= 10; i++){
         cin >> num;
         if(num % 3 == 0)
             cnt3++;
