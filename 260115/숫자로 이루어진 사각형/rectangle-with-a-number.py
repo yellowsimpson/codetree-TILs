@@ -1,4 +1,4 @@
-n = int(input())
+k = int(input())
 
 # Please write your code here.
 for()
