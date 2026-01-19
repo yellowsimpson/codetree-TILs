@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void 5_starts(){
+void starts(){
     for(int i = 0; i < 10; i++){
         cin << "*";
     cout << endl;
@@ -11,6 +11,6 @@ void 5_starts(){
 int main() {
     // Please write your code here.
     for(int i = 0; i < 5; i++)
-        5_starts();
+        starts();
     return 0;
 }
