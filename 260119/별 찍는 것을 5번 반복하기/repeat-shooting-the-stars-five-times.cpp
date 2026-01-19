@@ -10,8 +10,7 @@ void 5_starts(){
 
 int main() {
     // Please write your code here.
-    for(int i = 0; i <; i++)
+    for(int i = 0; i < 5; i++)
         5_starts();
-
     return 0;
 }
